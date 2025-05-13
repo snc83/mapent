@@ -1,0 +1,31 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Team Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section id="hero">
+    <h1>Join Our Team</h1>
+    <p>Earn with us and grow your income</p>
+    <a href="#signup" class="btn">Get Started</a>
+  </section>
+
+  <section id="about">
+    <h2>About the Program</h2>
+    <p>Details about the team, benefits, etc.</p>
+  </section>
+
+  <section id="signup">
+    <h2>Sign Up</h2>
+    <form action="#">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+</body>
+</html>
